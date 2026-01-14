@@ -59,7 +59,7 @@ chmod +x setup.sh
 
 4. **Run as root:**
 ```bash
-./provision.sh
+./setup.sh
 
 ```
 
