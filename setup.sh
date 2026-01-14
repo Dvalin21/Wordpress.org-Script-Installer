@@ -19,12 +19,12 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-echo -e "${GREEN}>>> INITIATING KEITH TECH CO MASTER BUILD <<<${NC}"
+echo -e "${GREEN}>>> INITIATING SITE MASTER BUILD <<<${NC}"
 
 # ------------------------------------------------------------------------------
 # 1. GATHER INPUTS
 # ------------------------------------------------------------------------------
-read -p "Enter Domain Name (e.g., keithtechco.com): " DOMAIN
+read -p "Enter Domain Name (e.g., example.com): " DOMAIN
 read -p "Enter Admin Email: " EMAIL
 read -p "Enter Zoraxy Proxy IP: " PROXY_IP
 read -p "Create Password for GoAccess Stats Login: " STATS_PASS
