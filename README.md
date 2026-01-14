@@ -44,7 +44,7 @@ A production-ready bash script designed to deploy a high-performance, secure Wor
 
 1. **Download the script:**
 ```bash
-nano provision.sh
+nano setup.sh
 
 ```
 
@@ -52,7 +52,7 @@ nano provision.sh
 2. **Paste the script content and save.**
 3. **Make it executable:**
 ```bash
-chmod +x provision.sh
+chmod +x setup.sh
 
 ```
 
